@@ -1,0 +1,42 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+#example{
+  height: 100%;
+  width: 100%;
+}
+
+.logo{
+  height: 64px;
+  color:white;
+  padding:10px;
+  text-align: center;
+}
+
+.menu-fold{
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.menu-fold:hover{
+  color: skyblue;
+  font-weight: bold;
+}
