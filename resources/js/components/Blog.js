@@ -13,12 +13,11 @@ export default class Blog extends Component {
     }
 
     componentWillMount() {
+
         axios.get('/api/blog').then(response => {
             this.setState({
                 blogs: response.data
-            }).catch(errors => {
-                console.log(error);
-            })
+            });
         });
     }
 
