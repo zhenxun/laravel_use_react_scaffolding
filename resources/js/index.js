@@ -5,6 +5,7 @@ import Blog from './components/Blog';
 import Example from './components/Example';
 import BlogArticle from './components/BlogArticle';
 import BlogDatatable from './components/BlogDatatable';
+import MyDatatable from './components/MyDatatable';
 
 export default class Index extends Component {
     render() {
@@ -14,10 +15,12 @@ export default class Index extends Component {
                         <Link to="/">Home</Link>
                         <Link to="/blog">Blog</Link>
                         <Link to="/blog-datatable">BlogDatatable</Link>
+                        <Link to="/datatable">Datatable</Link>
 
                         <Route path="/" exact component={Example} />
                         <Route path="/blog" exact component={Blog} />
                         <Route path="/blog-datatable" exact component={BlogDatatable} />
+                        <Route path="/datatable" exact component={MyDatatable} />
                         <Route path="/blog/:id" exact render={props => <BlogArticle{...props}/>} />
                     </div>
                 </Router>

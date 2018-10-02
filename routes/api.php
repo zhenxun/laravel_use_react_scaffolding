@@ -18,3 +18,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::resource('blog', 'Api\BlogController');
+Route::get('dt', 'Api\BlogController@dt');

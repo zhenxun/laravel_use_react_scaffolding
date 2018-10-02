@@ -17,6 +17,12 @@ class BlogController extends Controller
     {
         $blogs = Blog::all();
 
+        return response()->json($blogs);
+    }
+
+    public function dt(){
+        $blogs = Blog::all();
+
         return response()->json(['data' => $blogs]);
     }
 

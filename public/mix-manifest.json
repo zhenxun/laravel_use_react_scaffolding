@@ -1,4 +1,13 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css"
+    "/css/app.css": "/css/app.css",
+    "/css/bootstrap3/bootstrap.css": "/css/bootstrap3/bootstrap.css",
+    "/css/bootstrap3/bootstrap-theme.css": "/css/bootstrap3/bootstrap-theme.css",
+    "/fonts/glyphicons-halflings-regular.eot": "/fonts/glyphicons-halflings-regular.eot",
+    "/fonts/glyphicons-halflings-regular.svg": "/fonts/glyphicons-halflings-regular.svg",
+    "/fonts/glyphicons-halflings-regular.ttf": "/fonts/glyphicons-halflings-regular.ttf",
+    "/fonts/glyphicons-halflings-regular.woff": "/fonts/glyphicons-halflings-regular.woff",
+    "/fonts/glyphicons-halflings-regular.woff2": "/fonts/glyphicons-halflings-regular.woff2",
+    "/css/datatable-bs/dataTables.bootstrap.css": "/css/datatable-bs/dataTables.bootstrap.css",
+    "/css/datatable-bs/buttons.bootstrap.css": "/css/datatable-bs/buttons.bootstrap.css"
 }
