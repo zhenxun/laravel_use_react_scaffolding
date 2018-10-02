@@ -96,21 +96,23 @@ export default class BasicDatatable extends React.Component {
         //         "range": "all"
         //     },
         let postData = { range: "all" };
-        let dtData = { _method: "ajax", url: "/api/blog", data: function(d) {
+        let dtData = { 
+            _method: "ajax", 
+            url: "/api/dt", 
+            data: function(d) {
                 $.extend(d, postData);
                 return d;
-            }, type: "get", contentType: "application/json; charset=utf-8", dataSrc: "data" };
-
-
-
+            }, 
+            type: "get", 
+            contentType: "application/json; charset=utf-8", 
+            dataSrc: "data" 
+        };
 
         // axios.get("/api/blog").then(response => {
         //     //$.extend(response.data, postData);
         //     //console.log(response.data);
         //     this.setState({ data: response.data });
         // });
-
-        console.log(dtData);
 
         this.setState({ DTdata: dtData });
 

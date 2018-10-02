@@ -15,6 +15,10 @@ require('./bootstrap');
 
 //require('./components/Blog');
 //require('./components/Example');
-
-require('./Index');
 //require('./Home');
+require('./components/MyDatatable');
+
+//require('./Index');
+
+
+
